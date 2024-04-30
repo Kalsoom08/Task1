@@ -12,7 +12,7 @@
    
 }
 .links a:hover{
-    border-bottom: 1px solid aqua;
+    border-bottom: 2px solid aqua;
 }
 .links {
 width: 85%;
