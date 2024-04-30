@@ -2,22 +2,35 @@
     background-image: url(./Images/IMG-20240428-WA0016.jpg);
     background-size: cover;
     color: #fff;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:  sans-serif;
 }
 .links a{
     color: aliceblue;
     text-decoration: none;
     text-transform: uppercase;
    
+   
 }
 .links a:hover{
     border-bottom: 1px solid aqua;
 }
 .links {
+width: 85%;
+margin: auto;
+padding: 35px 0;   
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
 
-    text-align: right;
-    width: 90%;
-    padding: 20px;
+
+.links ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+.logo{
+    width: 60px;
+    color: aliceblue;
 }
 .main{
     text-align: center;
